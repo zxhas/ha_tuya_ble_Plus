@@ -8,7 +8,7 @@ _Inspired by code of [@redphx](https://github.com/redphx/poc-tuya-ble-fingerbot)
 
 _Original HASS component forked from https://github.com/PlusPlus-ua/ha_tuya_ble_
 
-_Merged several changes by @airy10 and @patriot1889, including light support_
+_Merged several changes by @airy10 and @patriot1889, including light support_ + 6jcvqwh0 support
 
 
 ## Installation
