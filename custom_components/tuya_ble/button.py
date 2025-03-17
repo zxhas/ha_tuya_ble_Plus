@@ -107,6 +107,7 @@ mapping: dict[str, TuyaBLECategoryButtonMapping] = {
         products={
             **dict.fromkeys(
                 [
+                    "6jcvqwh0",
                     "mknd4lci",
                     "riecov42"
                 ],  # Fingerbot Plus
