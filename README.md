@@ -1,5 +1,5 @@
 # Home Assistant support for Tuya BLE devices
-zx edit
+zx edit !!! NOT TESTED !!!
 ## Overview
 
 This integration supports Tuya devices connected via BLE.
