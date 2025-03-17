@@ -194,10 +194,11 @@ class HASSTuyaBLEDeviceManager(AbstaractTuyaBLEDeviceManager):
                     if fi_response_result and len(fi_response_result) > 0:
                         factory_info = fi_response_result[0]
                         if factory_info and (TUYA_FACTORY_INFO_MAC in factory_info):
-                            mac = ":".join(
-                                factory_info[TUYA_FACTORY_INFO_MAC][i : i + 2]
-                                for i in range(0, 12, 2)
-                            ).upper()
+#                            mac = ":".join(
+#                                factory_info[TUYA_FACTORY_INFO_MAC][i : i + 2]
+#                                for i in range(0, 12, 2)
+#                            ).upper()
+    mac = factory_info[TUYA_FACTORY_INFO_MAC].upper()
                             item.credentials[mac] = {
                                 CONF_ADDRESS: mac,
                                 CONF_UUID: device.get("uuid"),
